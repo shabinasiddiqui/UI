@@ -1,0 +1,38 @@
+body {
+    background-image: url("http://www.goodwp.com/images/201303/goodwp.com_27760.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.size {
+    height: 30px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.bsize {
+    height: 50px;
+    width: 100px;
+    border-color: black;
+    border-width: 2px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 7%;
+    color: white;
+}
+
+.header p {
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+}
+
+.header .fa {
+    padding-top: 45px;
+    padding-right: 15px;
+}
